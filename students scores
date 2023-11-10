@@ -19,5 +19,5 @@ mod$residuals
 df$residuals <- mod$residuals
 print(df)
 df$predicted <- mod$fitted.values
-predicted_score <- predict(mod, data.frame(hours = c(9.5,7.4)))
-View(predicted_score)
+predict(mod, data.frame(hours = c(9.5,7.4)))
+
